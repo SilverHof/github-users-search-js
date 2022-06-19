@@ -1,0 +1,71 @@
+/* Общие файлы */
+
+@import "_nullstyle";
+@import "_variables";
+@import "_fonts";
+
+
+/* Стили блоков */
+
+@import "_header";
+
+@import "_form";
+@import "_user";
+
+@import "_footer";
+
+body {
+    height: 100%;
+    background-color: var(--bg);
+    color: #ffffff;
+    font-family: 'Space Mono';
+
+    /* Darkmode */
+    --primary: #0079ff;
+    --primary-hover: #60abff;
+
+    --txt-high-contrast: #fff;
+    --txt-mid-contrast: #ffff;
+    --txt-low-contrast: #fff;
+
+    --txt-search: #fff;
+    --txt-search-placeholder: #fff;
+
+    --bg: #141d2f;
+    --bg-secondary: #1e2a47;
+
+    --theme-switch-btn-hover: #90a4d4;
+
+    /* Neutral */
+    --error: #f74646;
+}
+
+.light-mode {
+    /* Lightmode */
+    --primary: #0079ff;
+    --primary-hover: #60abff;
+
+    --txt-high-contrast: #2b3442;
+    --txt-mid-contrast: #4b6a9b;
+    --txt-low-contrast: #697c9a;
+
+    --txt-search: #222731;
+    --txt-search-placeholder: #4b6a9b;
+
+    --bg: #f6f8ff;
+    --bg-secondary: #fefefe;
+
+    --theme-switch-btn-hover: #222731;
+
+    /* Neutral */
+    --error: #f74646;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.opacity-50 {
+    opacity: 70%;
+}
+
